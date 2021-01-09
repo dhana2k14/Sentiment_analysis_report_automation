@@ -1,0 +1,19 @@
+source: template_new.pptx 
+data: 
+  url: data_for_automation_updated.xlsx
+  transform: data.fillna('NA')
+rules:
+  - copy-slide: data.groupby(['group_x', 'company_name'])
+    SlideNo:
+      text: copy.key[0]
+    Name:
+      text: copy.key[1]
+    Opinion:
+      # print: copy.val.d_pol.tolist()[0]
+      text: copy.val.d_pol.tolist()[0]
+    Categories:
+      # print: copy.val.pivot(index='sno', columns='categories', values='sents').reset_index().columns.tolist()
+      table:
+        data: copy.val.pivot(index = 'sno', columns='categories', values='sents').reset_index().drop('sno', axis = 1)
+        font-size: f'6 pt'
+        header-row: ['Business Performance', 'Business Risk/General', 'New Projects/Market Expansion/Capex Plans']
