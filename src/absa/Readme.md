@@ -20,6 +20,5 @@ While traditional sentiment analysis models such as [Azure Text Analytics](https
 |---|---|---|
 |[Aspect based sentiment analysis](absa-news-sentiment-classifier.ipynb)|Azure ML| A notebook for training [Aspect Based Sentiment Analysis Models using Intel's NLP Architect](http://nlp_architect.nervanasys.com/absa.html) |
 |[Model Deployment](absa-endpoint.ipynb)|Local & Azure ML|A notebook for deploying model as REST API |
-|[Language Detection](language-detection-using-spacy.ipynb)|Google Colab|A Notebook which walks through how to detect a language of a given text using Spacy |
-|[Data Import](import-data-datastore.ipynb)|Local & Azure ML|A Notebook which walks through how to import or upload local files into data store in Azure. This is required for model training using Azure ML |
+
 
