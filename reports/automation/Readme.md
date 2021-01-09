@@ -1,10 +1,11 @@
 # Gramex
 
-Gramex is a low-code data solutions platform: a fast way to build data-based web apps with less code.
+Gramex is a low-code data solutions platform: a fast way to build data-based web apps with less code. Gramex is a python library, written and maintained by Gramener. 
+
 More details about Gramex can be found at https://gramener.com/gramex
 
-## Instructions
----
+# Instructions
+
 1. Install [Gramex](https://learn.gramener.com/guide/#conda-install/) library in your environment 
 2. It is required to keep source data file, base template and YAML script that is used by Gramex in one folder
 3. After successful run **output.pptx** file is created in the same project folder 

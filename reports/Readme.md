@@ -1,7 +1,7 @@
 ## Data Preparation
 ----
 
-This folder contains set of Jupyter Notebooks for categories prediction using [Text Classification](src/absa_sentence_classifier) models trained in earlier steps and prepare the source data in order for executing YAML file as a next step. 
+This folder contains set of Jupyter Notebooks for categories prediction using [Text Classification](src/absa_sentence_classifier) models trained in our earlier steps and prepare the source data in order for executing YAML file as our next step. 
 
 
 |Notebook|Environment|Description|
