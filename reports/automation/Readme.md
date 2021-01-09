@@ -1,8 +1,13 @@
-# Instructions
+# Gramex
 
-1. It is important to keep the data file, template and the YAML script in the same project directory.
-2. **output.pptx** file will be created in the same project directry upon successful run 
-3. Install Gramex library by following the link [here](https://learn.gramener.com/guide/install/#conda-install)
-4. Open Anaconda Prompt and navigate to the project directory
-5. Run `slidesense testYaml.yaml --no-open`
-6. Check **output.pptx** for results
+Gramex is a low-code data solutions platform: a fast way to build data-based web apps with less code.
+More details about Gramex can be found at https://gramener.com/gramex
+
+## Instructions
+---
+1. Install [Gramex](https://learn.gramener.com/guide/#conda-install/) library in your environment 
+2. It is required to keep source data file, base template and YAML script that is used by Gramex in one folder
+3. After successful run **output.pptx** file is created in the same project folder 
+4. Open Anaconda Prompt in your local and navigate to the project folder 
+5. Run the command `slidesense testYaml.yaml --no-open`
+6. Check **output.pptx** for your automated report 
