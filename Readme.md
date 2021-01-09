@@ -1,8 +1,8 @@
 This folder contains the following items.
 
-|Folder Name|Description|
-|-----------|------------|
+|Folder|Description|
+|---| ------------------------
 
-|[Config](config)|Configuration file contains Azure Credentials|
-|[Input]()|Training Data used in all modeling phase|
-|[Output]()|Output files from model process and used in various other phases of the project|
+|[Config](config/config.json)|Configuration file for Azure connectivity
+|[Input](input/)|Set of training data used in various places of modeling process
+|[Output](output/)|Output files from model process and further used in various other phases of the project
