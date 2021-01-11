@@ -48,9 +48,6 @@ Azure DSVM is a linux based virtual machine and pre-installed with most data sci
 
     |File Name|Description|
     |---|---|
-    |[Aspect Lexicon](/input/generated_aspect_lex_updated_v3.csv)|Generated aspects by ABSA model|
-    |[Opinion Lexicon](/input/generated_opinion_lex_reranked_v3.csv)|Generated opinions by ABSA model|
-    |[Target Dataset for Prediction](/input/step1_competitor_news_data.txt)|A Dataset to be used to get predictions|
 
 4. Place ``step1_code_predict_sentiment.py`` in the following directory on the target PC. 
 ```
