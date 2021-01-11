@@ -62,5 +62,3 @@ Azure DSVM is a linux based virtual machine and pre-installed with most data sci
 |[Sentiment Prediction](step1_code_predict_sentiment.py)|Azure DS VM or Linux OS Machine|ABSA Inference job written in Python to get predictions for news articles from already trained ABSA models |
 |[Categories Prediction](step2_code_predict_categories.ipynb)|Google Colab|A Notebook which walks through obtaining predicted categories for each sentences based on a Text Classification model previously trained|
 |[Data Preparation](step3_code_prepare_data_reports.ipynb)|Local|A Notebook contains step wise procedure in order for preparing data to be used in YAML file|
-
-
