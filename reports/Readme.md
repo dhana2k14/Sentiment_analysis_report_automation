@@ -46,10 +46,18 @@ Azure DSVM is a linux based virtual machine and pre-installed with most data sci
     ```
 3. Transfer the following files to the target PC. These files can be put in any location in the target PC. WinSCP is recommended to use for this file transfer activities.
 
-    |File|
-    |---|
-    |[Aspect Lexicon](/input/generated_aspect_lex_updated_v3.csv)|
-
+    ```
+    Aspect Lexicon: Generated aspects by ABSA model
+    Filepath: /input/generated_aspect_lex_updated_v3.csv
+    ```
+    ```
+    Opinion Lexicon: Generated opinion by ABSA model
+    Filepath: /input/generated_opinion_lex_reranked_v3.csv
+    ```
+    ```
+    Target Dataset: File with news content to be used in prediction
+    Filepath: /input/step1_competitor_news_data.txt
+    ```
 4. Place ``step1_code_predict_sentiment.py`` in the following directory on the target PC. 
 ```
     nlp-architect\examples\absa\inference\
