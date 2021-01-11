@@ -48,7 +48,7 @@ Azure DSVM is a linux based virtual machine and pre-installed with most data sci
 
     |File Name|Description|
     |---|---|
-    |[Aspect Lexicon](/input/generated_aspect_lex_updated_v3.csv)|Generated aspects by ABSA model|
+    |[Aspect Lexicon](generated_aspect_lex_updated_v3.csv)|Generated aspects by ABSA model|
 
 4. Place ``step1_code_predict_sentiment.py`` in the following directory on the target PC. 
 ```
